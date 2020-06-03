@@ -30,3 +30,89 @@
 2020-06-03 23:47:20,491 515    [           main] DEBUG   com.zgyzs.dao.IT1Dao.findAll  - ==>  Preparing: select * from t1 
 2020-06-03 23:47:20,531 555    [           main] DEBUG   com.zgyzs.dao.IT1Dao.findAll  - ==> Parameters: 
 2020-06-03 23:47:20,594 618    [           main] DEBUG   com.zgyzs.dao.IT1Dao.findAll  - <==      Total: 21
+2020-06-04 00:31:40,605 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.2020-06-04 00:31:40,638 33     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.2020-06-04 00:31:40,638 33     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.2020-06-04 00:31:40,638 33     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.2020-06-04 00:31:40,639 34     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.2020-06-04 00:31:40,755 150    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection2020-06-04 00:31:41,125 520    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 289639718.2020-06-04 00:31:41,126 521    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11438d26]2020-06-04 00:31:41,141 536    [           main] DEBUG   com.zgyzs.dao.IT1Dao.findAll  - ==>  Preparing: select * from t1 2020-06-04 00:31:41,180 575    [           main] DEBUG   com.zgyzs.dao.IT1Dao.findAll  - ==> Parameters: 2020-06-04 00:31:41,216 611    [           main] DEBUG   com.zgyzs.dao.IT1Dao.findAll  - <==      Total: 21"2020-06-04 01:03:55,993 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+""2020-06-04 01:03:56,021 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:03:56,021 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:03:56,021 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:03:56,021 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:03:56,118 125    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+""2020-06-04 01:03:56,654 661    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 497359413.
+""2020-06-04 01:03:56,654 661    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1da51a35]
+""2020-06-04 01:03:56,668 675    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==>  Preparing: insert into t1(id,k) values(?,?) 
+""2020-06-04 01:03:56,710 717    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==> Parameters: 12222222(Integer), fsfewfewfew(String)
+""2020-06-04 01:03:56,777 784    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - <==    Updates: 1
+""2020-06-04 01:04:25,806 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+""2020-06-04 01:04:25,834 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:04:25,834 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:04:25,834 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:04:25,834 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:04:25,926 120    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+""2020-06-04 01:04:26,241 435    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 900008524.
+""2020-06-04 01:04:26,242 436    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@35a50a4c]
+""2020-06-04 01:04:26,257 451    [           main] DEBUG   com.zgyzs.dao.IT1Dao.findAll  - ==>  Preparing: select * from t1 
+""2020-06-04 01:04:26,292 486    [           main] DEBUG   com.zgyzs.dao.IT1Dao.findAll  - ==> Parameters: 
+""2020-06-04 01:04:26,328 522    [           main] DEBUG   com.zgyzs.dao.IT1Dao.findAll  - <==      Total: 21
+""2020-06-04 01:04:26,343 537    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:04:26,343 537    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:04:26,343 537    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:04:26,343 537    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:04:26,355 549    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+""2020-06-04 01:04:26,408 602    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 2007331442.
+""2020-06-04 01:04:26,408 602    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@77a57272]
+""2020-06-04 01:04:26,415 609    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==>  Preparing: insert into t1(id,k) values(?,?) 
+""2020-06-04 01:04:26,417 611    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==> Parameters: 12222222(Integer), fsfewfewfew(String)
+""2020-06-04 01:04:26,453 647    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - <==    Updates: 1
+""2020-06-04 01:09:31,622 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+""2020-06-04 01:09:31,646 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:09:31,646 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:09:31,646 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:09:31,646 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:09:31,745 123    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+""2020-06-04 01:09:32,093 471    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 497359413.
+""2020-06-04 01:09:32,093 471    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1da51a35]
+""2020-06-04 01:09:32,106 484    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==>  Preparing: insert into t1(id,k) values(?,?) 
+""2020-06-04 01:09:32,149 527    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==> Parameters: 12222222(Integer), fsfewfewfew(String)
+""2020-06-04 01:09:32,183 561    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - <==    Updates: 1
+""2020-06-04 01:09:32,184 562    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1da51a35]
+""2020-06-04 01:10:12,676 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+""2020-06-04 01:10:12,702 26     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:10:12,702 26     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:10:12,702 26     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:10:12,702 26     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:10:12,798 122    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+""2020-06-04 01:10:13,141 465    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 497359413.
+""2020-06-04 01:10:13,142 466    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1da51a35]
+""2020-06-04 01:10:13,155 479    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==>  Preparing: insert into t1(id,k) values(?,?) 
+""2020-06-04 01:10:13,193 517    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==> Parameters: 122222222(Integer), fsfewfewfew(String)
+""2020-06-04 01:10:13,215 539    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - <==    Updates: 1
+""2020-06-04 01:10:13,216 540    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1da51a35]
+""2020-06-04 01:13:13,657 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+""2020-06-04 01:13:13,684 27     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:13:13,685 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:13:13,685 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:13:13,685 28     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:13:13,780 123    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+""2020-06-04 01:13:14,123 466    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 497359413.
+""2020-06-04 01:13:14,123 466    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1da51a35]
+""2020-06-04 01:13:14,137 480    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==>  Preparing: insert into t1(id,k) values(?,?) 
+""2020-06-04 01:13:14,175 518    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==> Parameters: 422222222(Integer), fsfewfewfew(String)
+""2020-06-04 01:13:14,194 537    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - <==    Updates: 1
+""2020-06-04 01:13:14,195 538    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1da51a35]
+""2020-06-04 01:13:44,204 30547  [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==>  Preparing: insert into t1(id,k) values(?,?) 
+""2020-06-04 01:13:44,206 30549  [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==> Parameters: 322222222(Integer), fsfewfewfew(String)
+""2020-06-04 01:13:44,235 30578  [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - <==    Updates: 1
+""2020-06-04 01:14:58,559 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+""2020-06-04 01:14:58,594 35     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:14:58,594 35     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:14:58,594 35     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:14:58,594 35     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+""2020-06-04 01:14:58,722 163    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+""2020-06-04 01:14:59,047 488    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 497359413.
+""2020-06-04 01:14:59,047 488    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1da51a35]
+""2020-06-04 01:14:59,060 501    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==>  Preparing: insert into t1(id,k) values(?,?) 
+""2020-06-04 01:14:59,103 544    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==> Parameters: 522222222(Integer), fsfewfewfew(String)
+""2020-06-04 01:14:59,122 563    [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - <==    Updates: 1
+""2020-06-04 01:14:59,122 563    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1da51a35]
+""2020-06-04 01:15:29,131 30572  [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==>  Preparing: insert into t1(id,k) values(?,?) 
+""2020-06-04 01:15:29,132 30573  [           main] DEBUG    com.zgyzs.dao.IT1Dao.saveT1  - ==> Parameters: 322222222(Integer), fsfewfewfew(String)
+"

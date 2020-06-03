@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface IT1Dao {
     List<T1> findAll();
+    void saveT1(T1 t1);
 }
