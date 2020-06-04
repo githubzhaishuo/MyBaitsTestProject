@@ -30,14 +30,6 @@ public class MyBatisTest {
 //
 //    }
     @Test
-    public void show1(){
-        System.out.println("hello world");
-    }
-    @Test
-    public void show2(){
-        System.out.println("hello mybatis");
-    }
-    @Test
     public void testSelect(){
         try {
             InputStream in = Resources.getResourceAsStream("SqlMapConfig.xml");
@@ -55,20 +47,23 @@ public class MyBatisTest {
     }
     @Test
     public void testSave() throws Exception{
-        T1 t1 = new T1();
-        t1.setId(522222222);
-        t1.setK("fsfewfewfew");
+
         InputStream in = Resources.getResourceAsStream("SqlMapConfig.xml");
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(in);
         SqlSession session = factory.openSession();
         IT1Dao T1Dao = session.getMapper(IT1Dao.class);
+
+        T1 t1 = new T1();
+        t1.setId(100000000);
+        t1.setK("test");
+
         T1Dao.saveT1(t1);
         session.commit();
 //        in.close();
-        Thread.sleep(30000);
+        Thread.sleep(60000);
         T1 t2 = new T1();
-        t2.setId(322222222);
-        t2.setK("fsfewfewfew");
+        t2.setId(100000001);
+        t2.setK("test");
         T1Dao.saveT1(t2);
         session.commit();
         Thread.sleep(10000);

@@ -22,14 +22,8 @@
     <list default="true" id="6b5f2d21-6188-4120-b32f-a2c00eac92b9" name="默认的" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/axis.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zgyzs/dao/IT1Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zgyzs/dao/IT1Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/zgyzs/dao/IT1Dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/zgyzs/dao/IT1Dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zgyzs/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zgyzs/test/MyBatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zgyzs/dao/IT1Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zgyzs/dao/IT1Dao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zgyzs/dao/IT1Dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zgyzs/dao/IT1Dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zgyzs/test/MyBatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zgyzs/test/MyBatisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +178,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591189508920</updated>
       <workItem from="1591189510248" duration="7731000" />
+      <workItem from="1591204985657" duration="39000" />
+      <workItem from="1591274609147" duration="7505000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1591192713487</created>
@@ -220,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591195304517</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1591204610978</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591204610978</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +269,7 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
@@ -304,22 +308,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="804" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591192886716" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1591204393081">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1591279581333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591204393081" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1591204393081">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591279581333" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1591279581333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591204393081" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1591204393081">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591279581333" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1591279581333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591204393081" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1591204393081">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591279581333" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1591279581333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591204393081" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591279581333" />
     <state width="152" height="477" key="HiddenNamespacesPopup" timestamp="1591197145330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,10 +332,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="344" height="461" key="SqlResolveConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1591197102260" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591193420509">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591204622510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591193420509" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591204622510" />
     <state x="830" y="402" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1591197080870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -340,6 +344,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591192439162" />
+    <state x="661" y="118" width="597" height="804" key="find.popup" timestamp="1591287181787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="118" width="597" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591287181787" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyBaitsTestProject$MyBatisTest.ic" NAME="MyBatisTest Coverage Results" MODIFIED="1591202721905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
